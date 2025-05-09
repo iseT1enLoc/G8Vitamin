@@ -1,4 +1,17 @@
 # 🧠 G8Vitamin
+## 👨‍🏫 Lecture
+
+| Name            | Role           | Affiliation              |
+|-----------------|----------------|---------------------------|
+| PhD.Nguyen Gia Tuan Anh  | Lecturer | Department of Information Science and Enginneering, University of Information Technology, HCM VNU |
+| BS. Tran Quoc Khanh  | Teaching Assistant | Department of Information Science and Enginneering, University of Information Technology, HCM VNU |
+## 👥 Project Members
+
+| Name            | Role                | ID         |
+|-----------------|---------------------|------------|
+| Nguyen Vo Tien Loc    | Team Leader         | 22520792   |
+| Pham Van Duy      | Member      | 22520341   |
+| Truong Hoai Bao        | Member   | 22520126   |
 
 ## 📌 Overview
 This project is aimed to help early predict vitamin D deficiency patients based on general report metrics and relavation demographics information.
@@ -43,25 +56,12 @@ cd G8Vitamin
 - [NHANES](https://wwwn.cdc.gov/)
 - [Scikit-learn](https://scikit-learn.org/)
 - [PyTorch](https://pytorch.org/) or [TensorFlow](https://www.tensorflow.org/)
----
+## 📬 Contact
 
-## 📄 License
-Copyright (c) 2025 NguyenVoTienLoc
+For any questions or inquiries, feel free to contact us:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell    
-copies of the Software, and to permit persons to whom the Software is        
-furnished to do so, subject to the following conditions:                     
+- **Team Representative:** Nguyen Vo Tien Loc 
+  📧 Email: locnvt.it@gmail.com
+  📱 Phone: +84 398541346
 
-The above copyright notice and this permission notice shall be included in   
-all copies or substantial portions of the Software.                          
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR   
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,     
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER       
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN    
-THE SOFTWARE.

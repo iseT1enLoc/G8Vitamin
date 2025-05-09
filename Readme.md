@@ -2,6 +2,7 @@
 
 ## 📌 Overview
 This project is aimed to help early predict vitamin D deficiency patients based on general report metrics and relavation demographics information.
+![G8Vitamin Logo](media/ds108_workflow_v3.png)
 
 ---
 

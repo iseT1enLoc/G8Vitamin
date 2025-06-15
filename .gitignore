@@ -1,5 +1,8 @@
 data/final/*.csv
-data/final/
+data/final/07062025/
+data/final/08062025/
+data/final/08062025_hba1c/
+data/final/baselinestore/
 data/raw/*.csv
 data/raw/*.csv
 data/

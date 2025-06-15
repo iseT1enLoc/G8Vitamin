@@ -47,6 +47,9 @@ G8Vitamin/
 ```
 
 ### 📦 Installation and Setup
+Accessing the source code of frontend and backend:
+- **[Frontend](https://github.com/hoaibao2k4/Healthcare-Clinic)**: built with NextJS.
+- **[Backend](https://github.com/duyp6090/private_clinic_management_se104)**: This is backend of website built with Java.
 # Clone the repository
 ```bash
 git clone https://github.com/iseT1enLoc/G8Vitamin.git

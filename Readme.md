@@ -15,7 +15,7 @@
 
 ## 📌 Overview
 This project is aimed to help early predict vitamin D deficiency patients based on general report metrics and relavation demographics information.
-![G8Vitamin Logo](media/ds108_workflow_v3.png)
+![G8Vitamin Logo](media/DS108FINAL.png)
 
 ---
 
@@ -34,23 +34,35 @@ G8Vitamin/
 │
 ├── src/                    # Source code
 │   ├── crawl/              # Scripts for crawling data
+|   ├── dataprocessing/     # Scripts for data processing
+│   ├── dataquality/        # Scripts for evaluating data based on completeness and consistency metrics
 │   ├── integration/        # Integration data
 │   ├── models/             # Training, evaluation, saving models
-│
-├── models/                 # Trained and serialized models
-│
-├── outputs/                # Logs, reports, figures
+|   │   └── experiments/    # Data for trainning
+|   │   └── results/        # results store for sheet
 │
 ├── requirements.txt        # Python dependencies
-├── setup.py                # Project installation script (if packaging)
 ├── .gitignore              # Files to ignore in version control
 └── README.md               # Project overview and instructions
 ```
 
 ### 📦 Installation and Setup
+# Clone the repository
 ```bash
 git clone https://github.com/iseT1enLoc/G8Vitamin.git
 cd G8Vitamin
+```
+
+# (Optional) Create and activate a virtual environment
+```
+python -m venv venv
+source venv/bin/activate        # On macOS/Linux
+venv\Scripts\activate           # On Windows
+```
+
+# Install required dependencies
+```
+pip install -r requirements.txt
 ```
 ## 🤝 Acknowledgements
 - [NHANES](https://wwwn.cdc.gov/)

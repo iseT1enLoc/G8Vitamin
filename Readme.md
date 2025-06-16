@@ -45,6 +45,15 @@ G8Vitamin/
 ├── .gitignore              # Files to ignore in version control
 └── README.md               # Project overview and instructions
 ```
+### ▶️ Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/4tsfm1Lk0w0?si=ETV9QOtkRLBwBNwW" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png" alt="Watch demo on YouTube" width="300"/>
+  </a>
+</p>
+
+> Click the image above to watch the full demo.
 
 ### 📦 Installation and Setup
 Accessing the source code of frontend and backend:

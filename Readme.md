@@ -19,7 +19,7 @@ This project is aimed to help early predict vitamin D deficiency patients based 
 
 ---
 
-## 📁 Folder Structure
+## 📁 Folder Structure(Connect author to request full dataset)
 ```
 G8Vitamin/
 │

@@ -1,9 +1,0 @@
-Data versioning,Model,Label,Training time,Test time,ACC,ACC balanced,MCC,CohenKappa,F1_macro,F1_weighted,ROC_AUC,PR_AUC,TP,FP,FN,TN,PPV,NPV,SEN,SPE
-Scale hba1c in test - smote+preprocess,Stacking,0,25.8796,0.4991,0.6606,0.6774,0.3285,0.3091,0.6445,0.6732,0.7462,0.5671,2022,400,1171,1036,0.8348,0.4694,0.6333,0.7214
-Scale hba1c in test - smote+preprocess,Stacking,1,,,,,,,,,,,1036,1171,400,2022,0.4694,0.8348,0.7214,0.6333
-Scale hba1c in test - nosmote+preprocess,Stacking,0,11.0405,0.2607,0.7202,0.6744,0.3479,0.3479,0.674,0.7206,0.7489,0.5745,2539,641,654,795,0.7984,0.5487,0.7952,0.5536
-Scale hba1c in test - nosmote+preprocess,Stacking,1,,,,,,,,,,,795,654,641,2539,0.5487,0.7984,0.5536,0.7952
-Scale hba1c in test - smote+nopreprocess,Stacking,0,32.804,0.2574,0.682,0.6823,0.3406,0.3292,0.6593,0.6927,0.7498,0.5755,2176,455,1017,981,0.8271,0.491,0.6815,0.6831
-Scale hba1c in test - smote+nopreprocess,Stacking,1,,,,,,,,,,,981,1017,455,2176,0.491,0.8271,0.6831,0.6815
-Scale hba1c in test - nosmote+nopreprocess,Stacking,0,9.7105,0.2686,0.7202,0.6813,0.3571,0.3568,0.6783,0.7224,0.7522,0.578,2503,605,690,831,0.8053,0.5464,0.7839,0.5787
-Scale hba1c in test - nosmote+nopreprocess,Stacking,1,,,,,,,,,,,831,690,605,2503,0.5464,0.8053,0.5787,0.7839

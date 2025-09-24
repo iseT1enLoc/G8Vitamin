@@ -1,0 +1,65 @@
+Data versioning,Model,Label,Training time,Test time,ACC,ACC balanced,MCC,CohenKappa,F1_macro,F1_weighted,ROC_AUC,PR_AUC,TP,FP,FN,TN,PPV,NPV,SEN,SPE
+Scale hba1c in test - smote+preprocess,LightGBM,0,5.8228,0.0199,0.6129,0.6638,0.3063,0.2659,0.6074,0.625,0.7468,0.5686,1691,290,1502,1146,0.8536,0.4328,0.5296,0.7981
+Scale hba1c in test - smote+preprocess,LightGBM,1,,,,,,,,,,,1146,1502,290,1691,0.4328,0.8536,0.7981,0.5296
+Scale hba1c in test - smote+preprocess,XGBoost,0,5.7521,0.0109,0.6535,0.6739,0.3219,0.3005,0.6388,0.6664,0.7458,0.5689,1980,391,1213,1045,0.8351,0.4628,0.6201,0.7277
+Scale hba1c in test - smote+preprocess,XGBoost,1,,,,,,,,,,,1045,1213,391,1980,0.4628,0.8351,0.7277,0.6201
+Scale hba1c in test - smote+preprocess,GradientBoosting_80,0,9.7505,0.016,0.661,0.671,0.3173,0.3015,0.6424,0.6734,0.7357,0.5555,2059,435,1134,1001,0.8256,0.4689,0.6448,0.6971
+Scale hba1c in test - smote+preprocess,GradientBoosting_80,1,,,,,,,,,,,1001,1134,435,2059,0.4689,0.8256,0.6971,0.6448
+Scale hba1c in test - smote+preprocess,RandomForest,0,9.4206,0.119,0.6943,0.6805,0.3416,0.3357,0.6653,0.7027,0.7415,0.5606,2289,511,904,925,0.8175,0.5057,0.7169,0.6442
+Scale hba1c in test - smote+preprocess,RandomForest,1,,,,,,,,,,,925,904,511,2289,0.5057,0.8175,0.6442,0.7169
+Scale hba1c in test - smote+preprocess,Naive Bayes,0,6.1988,0.0196,0.3109,0.5005,0.0171,0.0006,0.2378,0.1483,0.6499,0.43,3,0,3190,1436,1.0,0.3104,0.0009,1.0
+Scale hba1c in test - smote+preprocess,Naive Bayes,1,,,,,,,,,,,1436,3190,0,3,0.3104,1.0,1.0,0.0009
+Scale hba1c in test - smote+preprocess,LogisticRegression,0,15.9241,0.0078,0.7002,0.6719,0.3313,0.3292,0.6636,0.7057,0.7421,0.5516,2383,578,810,858,0.8048,0.5144,0.7463,0.5975
+Scale hba1c in test - smote+preprocess,LogisticRegression,1,,,,,,,,,,,858,810,578,2383,0.5144,0.8048,0.5975,0.7463
+Scale hba1c in test - smote+preprocess,ElasticNetLR,0,6.744,0.0089,0.7004,0.6721,0.3316,0.3295,0.6638,0.7059,0.7421,0.5514,2384,578,809,858,0.8049,0.5147,0.7466,0.5975
+Scale hba1c in test - smote+preprocess,ElasticNetLR,1,,,,,,,,,,,858,809,578,2384,0.5147,0.8049,0.5975,0.7466
+Scale hba1c in test - smote+preprocess,Stacking,0,27.9787,0.465,0.6606,0.6774,0.3285,0.3091,0.6445,0.6732,0.7462,0.5671,2022,400,1171,1036,0.8348,0.4694,0.6333,0.7214
+Scale hba1c in test - smote+preprocess,Stacking,1,,,,,,,,,,,1036,1171,400,2022,0.4694,0.8348,0.7214,0.6333
+Scale hba1c in test - nosmote+preprocess,LightGBM,0,0.5043,0.0306,0.7157,0.6732,0.3429,0.3428,0.6713,0.7172,0.7476,0.5728,2507,630,686,806,0.7992,0.5402,0.7852,0.5613
+Scale hba1c in test - nosmote+preprocess,LightGBM,1,,,,,,,,,,,806,686,630,2507,0.5402,0.7992,0.5613,0.7852
+Scale hba1c in test - nosmote+preprocess,XGBoost,0,0.2315,0.0189,0.7207,0.6766,0.3512,0.3512,0.6756,0.7215,0.7482,0.5704,2531,631,662,805,0.8004,0.5487,0.7927,0.5606
+Scale hba1c in test - nosmote+preprocess,XGBoost,1,,,,,,,,,,,805,662,631,2531,0.5487,0.8004,0.5606,0.7927
+Scale hba1c in test - nosmote+preprocess,GradientBoosting_80,0,4.6471,0.0324,0.72,0.6536,0.3213,0.3195,0.6589,0.7137,0.7398,0.561,2646,749,547,687,0.7794,0.5567,0.8287,0.4784
+Scale hba1c in test - nosmote+preprocess,GradientBoosting_80,1,,,,,,,,,,,687,547,749,2646,0.5567,0.7794,0.4784,0.8287
+Scale hba1c in test - nosmote+preprocess,RandomForest,0,6.6047,0.2898,0.7135,0.6567,0.3193,0.3189,0.6593,0.7109,0.735,0.5515,2575,708,618,728,0.7843,0.5409,0.8065,0.507
+Scale hba1c in test - nosmote+preprocess,RandomForest,1,,,,,,,,,,,728,618,708,2575,0.5409,0.7843,0.507,0.8065
+Scale hba1c in test - nosmote+preprocess,Naive Bayes,0,0.0537,0.041,0.3191,0.5062,0.0601,0.0078,0.2513,0.1658,0.6592,0.4328,42,1,3151,1435,0.9767,0.3129,0.0132,0.9993
+Scale hba1c in test - nosmote+preprocess,Naive Bayes,1,,,,,,,,,,,1435,3151,1,42,0.3129,0.9767,0.9993,0.0132
+Scale hba1c in test - nosmote+preprocess,LogisticRegression,0,0.1135,0.0162,0.7269,0.6262,0.2996,0.2834,0.6344,0.7042,0.7417,0.5513,2847,918,346,518,0.7562,0.5995,0.8916,0.3607
+Scale hba1c in test - nosmote+preprocess,LogisticRegression,1,,,,,,,,,,,518,346,918,2847,0.5995,0.7562,0.3607,0.8916
+Scale hba1c in test - nosmote+preprocess,ElasticNetLR,0,1.4856,0.0179,0.7274,0.6269,0.301,0.2849,0.6352,0.7048,0.7418,0.5513,2847,916,346,520,0.7566,0.6005,0.8916,0.3621
+Scale hba1c in test - nosmote+preprocess,ElasticNetLR,1,,,,,,,,,,,520,346,916,2847,0.6005,0.7566,0.3621,0.8916
+Scale hba1c in test - nosmote+preprocess,Stacking,0,20.5762,0.419,0.7202,0.6744,0.3479,0.3479,0.674,0.7206,0.7489,0.5745,2539,641,654,795,0.7984,0.5487,0.7952,0.5536
+Scale hba1c in test - nosmote+preprocess,Stacking,1,,,,,,,,,,,795,654,641,2539,0.5487,0.7984,0.5536,0.7952
+Scale hba1c in test - smote+nopreprocess,LightGBM,0,19.5487,0.0083,0.7116,0.6789,0.3479,0.3468,0.6729,0.7156,0.7505,0.5742,2443,585,750,851,0.8068,0.5315,0.7651,0.5926
+Scale hba1c in test - smote+nopreprocess,LightGBM,1,,,,,,,,,,,851,750,585,2443,0.5315,0.8068,0.5926,0.7651
+Scale hba1c in test - smote+nopreprocess,XGBoost,0,24.7944,0.0065,0.7058,0.6766,0.3411,0.3393,0.6689,0.7108,0.7479,0.5743,2406,575,787,861,0.8071,0.5225,0.7535,0.5996
+Scale hba1c in test - smote+nopreprocess,XGBoost,1,,,,,,,,,,,861,787,575,2406,0.5225,0.8071,0.5996,0.7535
+Scale hba1c in test - smote+nopreprocess,GradientBoosting_80,0,74.4626,0.0119,0.6868,0.6708,0.3235,0.3182,0.6565,0.6952,0.7417,0.5631,2276,533,917,903,0.8103,0.4962,0.7128,0.6288
+Scale hba1c in test - smote+nopreprocess,GradientBoosting_80,1,,,,,,,,,,,903,917,533,2276,0.4962,0.8103,0.6288,0.7128
+Scale hba1c in test - smote+nopreprocess,RandomForest,0,35.972,0.3261,0.703,0.6751,0.3375,0.3353,0.6667,0.7084,0.7405,0.5653,2390,572,803,864,0.8069,0.5183,0.7485,0.6017
+Scale hba1c in test - smote+nopreprocess,RandomForest,1,,,,,,,,,,,864,803,572,2390,0.5183,0.8069,0.6017,0.7485
+Scale hba1c in test - smote+nopreprocess,Naive Bayes,0,63.9942,0.0062,0.3117,0.5007,0.0135,0.0009,0.2397,0.1508,0.6118,0.4007,9,2,3184,1434,0.8182,0.3105,0.0028,0.9986
+Scale hba1c in test - smote+nopreprocess,Naive Bayes,1,,,,,,,,,,,1434,3184,2,9,0.3105,0.8182,0.9986,0.0028
+Scale hba1c in test - smote+nopreprocess,LogisticRegression,0,19.9424,0.0021,0.6937,0.6019,0.2277,0.2216,0.6067,0.6769,0.6865,0.4889,2694,919,499,517,0.7456,0.5089,0.8437,0.36
+Scale hba1c in test - smote+nopreprocess,LogisticRegression,1,,,,,,,,,,,517,499,919,2694,0.5089,0.7456,0.36,0.8437
+Scale hba1c in test - smote+nopreprocess,ElasticNetLR,0,23.5937,0.0025,0.6245,0.6307,0.2424,0.2296,0.6049,0.6383,0.6882,0.4861,1962,507,1231,929,0.7947,0.4301,0.6145,0.6469
+Scale hba1c in test - smote+nopreprocess,ElasticNetLR,1,,,,,,,,,,,929,1231,507,1962,0.4301,0.7947,0.6469,0.6145
+Scale hba1c in test - smote+nopreprocess,Stacking,0,43.5056,0.5538,0.682,0.6823,0.3406,0.3292,0.6593,0.6927,0.7498,0.5755,2176,455,1017,981,0.8271,0.491,0.6815,0.6831
+Scale hba1c in test - smote+nopreprocess,Stacking,1,,,,,,,,,,,981,1017,455,2176,0.491,0.8271,0.6831,0.6815
+Scale hba1c in test - nosmote+nopreprocess,LightGBM,0,0.4392,0.0148,0.7176,0.6754,0.3473,0.3471,0.6735,0.7191,0.7515,0.5727,2512,626,681,810,0.8005,0.5433,0.7867,0.5641
+Scale hba1c in test - nosmote+nopreprocess,LightGBM,1,,,,,,,,,,,810,681,626,2512,0.5433,0.8005,0.5641,0.7867
+Scale hba1c in test - nosmote+nopreprocess,XGBoost,0,0.1773,0.0063,0.7142,0.6717,0.3398,0.3396,0.6698,0.7157,0.7478,0.5692,2502,632,691,804,0.7983,0.5378,0.7836,0.5599
+Scale hba1c in test - nosmote+nopreprocess,XGBoost,1,,,,,,,,,,,804,691,632,2502,0.5378,0.7983,0.5599,0.7836
+Scale hba1c in test - nosmote+nopreprocess,GradientBoosting_80,0,4.7418,0.0246,0.7218,0.6596,0.3304,0.3293,0.6642,0.7169,0.7455,0.5681,2629,724,564,712,0.7841,0.558,0.8234,0.4958
+Scale hba1c in test - nosmote+nopreprocess,GradientBoosting_80,1,,,,,,,,,,,712,564,724,2629,0.558,0.7841,0.4958,0.8234
+Scale hba1c in test - nosmote+nopreprocess,RandomForest,0,6.9395,0.2828,0.7215,0.6702,0.3435,0.3434,0.6717,0.7202,0.7376,0.5536,2572,668,621,768,0.7938,0.5529,0.8055,0.5348
+Scale hba1c in test - nosmote+nopreprocess,RandomForest,1,,,,,,,,,,,768,621,668,2572,0.5529,0.7938,0.5348,0.8055
+Scale hba1c in test - nosmote+nopreprocess,Naive Bayes,0,0.0132,0.0084,0.3109,0.5005,0.0171,0.0006,0.2378,0.1483,0.5986,0.3892,3,0,3190,1436,1.0,0.3104,0.0009,1.0
+Scale hba1c in test - nosmote+nopreprocess,Naive Bayes,1,,,,,,,,,,,1436,3190,0,3,0.3104,1.0,1.0,0.0009
+Scale hba1c in test - nosmote+nopreprocess,LogisticRegression,0,0.9507,0.0062,0.5837,0.6262,0.2355,0.206,0.577,0.5972,0.6859,0.4893,1642,376,1551,1060,0.8137,0.406,0.5142,0.7382
+Scale hba1c in test - nosmote+nopreprocess,LogisticRegression,1,,,,,,,,,,,1060,1551,376,1642,0.406,0.8137,0.7382,0.5142
+Scale hba1c in test - nosmote+nopreprocess,ElasticNetLR,0,11.2694,0.0036,0.6768,0.6263,0.2506,0.2506,0.6253,0.678,0.6905,0.4918,2425,728,768,708,0.7691,0.4797,0.7595,0.493
+Scale hba1c in test - nosmote+nopreprocess,ElasticNetLR,1,,,,,,,,,,,708,768,728,2425,0.4797,0.7691,0.493,0.7595
+Scale hba1c in test - nosmote+nopreprocess,Stacking,0,12.1205,0.2546,0.7202,0.6813,0.3571,0.3568,0.6783,0.7224,0.7522,0.578,2503,605,690,831,0.8053,0.5464,0.7839,0.5787
+Scale hba1c in test - nosmote+nopreprocess,Stacking,1,,,,,,,,,,,831,690,605,2503,0.5464,0.8053,0.5787,0.7839

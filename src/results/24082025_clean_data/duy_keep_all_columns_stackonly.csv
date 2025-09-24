@@ -1,20 +1,29 @@
-Model,Parameters,Feature used
-LightGBM,"n_estimators=120, max_depth=6, num_leaves=31, 
-        learning_rate=0.05, random_state=42","Gender', 'Age', 'Race', 'PIR', 'BMI', 'FastingGlucose', 'Albumin',
-       'BUN', 'GGT', 'UricAcid', 'Creatinine', 'HDLCholesterol',
-       'Triglycerides', 'Hematocrit', 'MeanCellVolumn', 'MeanCellHemoglobin',
-       'PlateletCount', 'MeanPlateletVolume', 'milk_consumption', 'label'"
-XGBoost,"n_estimators=80, learning_rate=0.066, 
-        random_state=42, verbosity=0",
-GradiantBoosting,"n_estimators=80, learning_rate=0.05, random_state=42",
-RandomForest,"n_estimators=100, random_state=42",
-GradientBoosting,,
-Naive Bayes,var_smoothing=1e-10,
-SVM,,
-"Stacking(baseleaner{lightgbm,xgboost,randomforest,'adaboost',naive bayes}, meta learner={logistic regression}","base_learners = [
-    ('lightgbm', LGBMClassifier(n_estimators=100, max_depth=6, num_leaves=31, learning_rate=0.05, random_state=42)),
-    ('xgboost', XGBClassifier(n_estimators=80, learning_rate=0.066, random_state=42, verbosity=0)),
-    ('RandomForest', rf_setups['Regularized']),
-    ('adaboost',AdaBoostClassifier(n_estimators=300,learning_rate=0.9, random_state=42),),
-    ('nb', GaussianNB(var_smoothing= 1e-10)),
-]",
+Metrics,Formula,Meaning,
+ACC (Accuracy),(TP+TN)/(TP+TN+FP+FN),overall correctness.,
+PPV (Positive Predictive Value = Precision),TP/(TP+FP),reliability of positive predictions.,
+NPV (Negative Predictive Value),TN/(TN+FN),reliability of negative predictions.,
+SEN (Sensitivity = Recall = True Positive Rate),TP/(TP+FN),how many positives we detect (don’t miss).,
+SPE (Specificity = True Negative Rate),TN/(TN+FP),how many negatives we detect (don’t misclassify).,
+F1_macro (Macro-averaged F1 score),F1_macro (Macro-averaged F1 score),balanced performance across all classes.,
+"Time c?ng là ?? ?o ?ánh giá hi?u su?t ho?t ??ng và ?? ph?c t?p tri?n khai. Các em miêu t? thêm vào ?ây. M?t mình s? ?? vào n?i dung các ?? ?o ?ánh giá chung lun. Time x? lý d? li?u, extract feature, train model, predict",,,
+"B? sung thêm hai ?? ?o này ?? v? ???ng cong minh ho? ROC–AUC, PR–AUC",,,
+"Explain TP, FP, FN, TN",Actual Positive,Actual Negative,
+Predicted Positive,TP(Correct Hit),FP(False Alarm),
+Predicted Negative,FN(Missed Case),TN(Correct Rejection),
+"L?u thông tin v? TP, FP, FN, TN cho t?ng tr??ng h?p th?c nghi?m. N?u sau này mình mu?n b? sung thêm các ?? ?o ???c tính t? ma tr?n nh?m l?n thì có thông tin s?n ?? tính thêm mà không ph?i ch?y l?i.",,,"MacroF1
+
+BalancedAccuracy
+
+MCC
+
+Cohen’s Kappa
+"
+SMOTE's type,Explain,,
+SMOTE,Simple smote,,
+SMOTENC,Synthetic Minority Over-sampling Technique for Nominal and Continuous.,,
+SMOTEN,Synthetic Minority Over-sampling Technique for Nominal.,,
+ADASYN,This method is similar to SMOTE but it generates different number of samples depending on an estimate of the local distribution of the class to be oversampled.,,
+BorderlineSMOTE,This algorithm is a variant of the original SMOTE algorithm proposed in [2]. Borderline samples will be detected and used to generate new synthetic samples.,,
+KMeansSMOTE,"Apply a KMeans clustering before to over-sample using SMOTE. 
+",,
+SVMSMOTE,Over-sampling using SVM-SMOTE.,,

@@ -1,0 +1,19 @@
+Data versioning,Model,Label,Training time,Test time,ACC,F1_macro,F1_weighted,ROC_AUC,PR_AUC,TP,FP,FN,TN,PPV,NPV,SEN,SPE
+Full_data_raw without SVMSMOTE,LightGBM,0,7.6401,0.0101,0.6712,0.6524,0.686,0.7486,0.5793,99,16,56,48,0.8609,0.4615,0.6387,0.75
+Full_data_raw without SVMSMOTE,LightGBM,1,,,,,,,,48,56,16,99,0.4615,0.8609,0.75,0.6387
+Full_data_raw without SVMSMOTE,XGBoost,0,12.4334,0.0102,0.6667,0.6468,0.6816,0.7414,0.5605,99,17,56,47,0.8534,0.4563,0.6387,0.7344
+Full_data_raw without SVMSMOTE,XGBoost,1,,,,,,,,47,56,17,99,0.4563,0.8534,0.7344,0.6387
+Full_data_raw without SVMSMOTE,GradientBoosting_80,0,17.5649,0.0058,0.5753,0.571,0.5889,0.7407,0.5437,74,12,81,52,0.8605,0.391,0.4774,0.8125
+Full_data_raw without SVMSMOTE,GradientBoosting_80,1,,,,,,,,52,81,12,74,0.391,0.8605,0.8125,0.4774
+Full_data_raw without SVMSMOTE,RandomForest,0,13.7679,0.0206,0.726,0.685,0.7323,0.7581,0.5945,119,24,36,40,0.8322,0.5263,0.7677,0.625
+Full_data_raw without SVMSMOTE,RandomForest,1,,,,,,,,40,36,24,119,0.5263,0.8322,0.625,0.7677
+Full_data_raw without SVMSMOTE,GradientBoosting_100,0,16.4298,0.0058,0.5845,0.5794,0.5986,0.7397,0.5458,76,12,79,52,0.8636,0.3969,0.4903,0.8125
+Full_data_raw without SVMSMOTE,GradientBoosting_100,1,,,,,,,,52,79,12,76,0.3969,0.8636,0.8125,0.4903
+Full_data_raw without SVMSMOTE,Naive Bayes,0,7.2933,0.0055,0.484,0.4833,0.4912,0.6415,0.416,57,15,98,49,0.7917,0.3333,0.3677,0.7656
+Full_data_raw without SVMSMOTE,Naive Bayes,1,,,,,,,,49,98,15,57,0.3333,0.7917,0.7656,0.3677
+Full_data_raw without SVMSMOTE,LogisticRegression,0,7.3708,0.0046,0.5708,0.5651,0.5857,0.7111,0.4938,75,14,80,50,0.8427,0.3846,0.4839,0.7812
+Full_data_raw without SVMSMOTE,LogisticRegression,1,,,,,,,,50,80,14,75,0.3846,0.8427,0.7812,0.4839
+Full_data_raw without SVMSMOTE,ElasticNetLR,0,12.3278,0.0047,0.5708,0.5651,0.5857,0.7113,0.494,75,14,80,50,0.8427,0.3846,0.4839,0.7812
+Full_data_raw without SVMSMOTE,ElasticNetLR,1,,,,,,,,50,80,14,75,0.3846,0.8427,0.7812,0.4839
+Full_data_raw without SVMSMOTE,Stacking,0,33.6608,0.0565,0.7123,0.6855,0.7237,0.7543,0.5802,110,18,45,46,0.8594,0.5055,0.7097,0.7188
+Full_data_raw without SVMSMOTE,Stacking,1,,,,,,,,46,45,18,110,0.5055,0.8594,0.7188,0.7097

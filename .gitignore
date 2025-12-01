@@ -6,3 +6,4 @@ data/final/baselinestore/
 data/raw/*.csv
 data/raw/*.csv
 data/
+.venv
